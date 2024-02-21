@@ -1,0 +1,59 @@
+/* css file for index.html */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h2 {
+    color: cyan;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#button{
+    display: flex;
+    justify-content: center;
+
+}
+button {
+    padding: 10px 20px;
+    background-color: cyan;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #00bcd4;
+}
+
+button:active {
+    background-color: #008ba3;
+}
